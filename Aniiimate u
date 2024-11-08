@@ -1,0 +1,13 @@
+/*Andev Web*/
+.heart {
+  position: absolute;
+  height: calc(var(--size) * 1vmin);
+  width: calc(var(--size) 1vmin);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.heart svg {
+  height: 100%;
+  width: 100%;
+}
